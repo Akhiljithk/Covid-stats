@@ -4,8 +4,8 @@ const novalCovid = require('novelcovid')
 const exhbs = require('express-handlebars')
 
 const app = express();
-
-app.listen(4000,()=>{
+var PORT = process.env.PORT || 5000;
+app.listen(PORT,()=>{
     console.log("app is listening at port 4000")
 })
 
