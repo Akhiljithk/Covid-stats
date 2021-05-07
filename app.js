@@ -29,8 +29,6 @@ async function getData(callBack){
     callBack(keralaData)
 }
 
-
-
 app.get('/',(req,res)=>{
     getData((data)=>{
         // newArr = [{data}]
